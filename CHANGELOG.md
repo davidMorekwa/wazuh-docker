@@ -5,12 +5,14 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- None
+- Add revert option into bumper workflow ([#2330](https://github.com/wazuh/wazuh-docker/pull/2330))
+- Add checks for artifact_urls.yaml download ([#2315](https://github.com/wazuh/wazuh-docker/pull/2315))
+- Add set_as_main option ([#2293](https://github.com/wazuh/wazuh-docker/pull/2293))
 
 ### Changed
 
-- Add checks for artifact_urls.yaml download ([#2315](https://github.com/wazuh/wazuh-docker/pull/2315))
-- Add set_as_main option ([#2293](https://github.com/wazuh/wazuh-docker/pull/2293))
+- Add new path on artifact_urls file ([#2344](https://github.com/wazuh/wazuh-docker/pull/2344))
+- Presigned URLs generation enhancement ([#2346](https://github.com/wazuh/wazuh-docker/pull/2346))
 - Adapt bumper workflows to change main branch ([#2294](https://github.com/wazuh/wazuh-docker/pull/2294))
 - Delete all API user and password references and Wazuh agent references ([#2289](https://github.com/wazuh/wazuh-docker/pull/2289))
 - Create certificate directory with default user and group ([#2287](https://github.com/wazuh/wazuh-docker/pull/2287))
@@ -49,6 +51,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
+- Delete setcap command on deprecated file ([#2345](https://github.com/wazuh/wazuh-docker/pull/2345))
 - Modify the choice of a correct tag ([#2313](https://github.com/wazuh/wazuh-docker/pull/2313))
 - Artifact URL download fix ([#2306](https://github.com/wazuh/wazuh-docker/pull/2306))
 - Change API query method. ([#2275](https://github.com/wazuh/wazuh-docker/pull/2275))
