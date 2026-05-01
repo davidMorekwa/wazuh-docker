@@ -53,7 +53,7 @@
 <decoder name="auditd-syscall">
   <parent>auditd</parent>
   <regex offset="after_regex">subj=\((\S+)\)|subj="(\S+)"|subj=(\S+)</regex>
-  <order>auditd.subj</order>
+  <order>audit.subj</order>
 </decoder>
 
 <!-- EXECVE -->
