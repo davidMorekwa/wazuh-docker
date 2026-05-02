@@ -10,7 +10,7 @@ type=PROCTITLE msg=audit(1479982525.380:50): proctitle=746F756368002F7661722F6C6
     <rule id="100002" level="6">
         <if_sid>80700</if_sid>
         <field name="audit.type">SYSCALL</field>
-        <field name="auditd.subj">docker-default</field> <!-- this line should be: <field name="audit.subj">docker-default</field> -->
+        <field name="audit.subj">docker-default</field> <!-- this line should be: <field name="audit.subj">docker-default</field> -->
         <description>Command executed on docker container: $(audit.exe)</description>
     </rule>
 </group>
